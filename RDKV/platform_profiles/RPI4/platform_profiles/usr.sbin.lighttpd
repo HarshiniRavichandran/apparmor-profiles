@@ -1,0 +1,3 @@
+profile lighttpd /usr/sbin/lighttpd flags=(attach_disconnected) {
+    /opt/www/refapp2/** r,
+}
